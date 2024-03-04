@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bendevv's Blog"
+title                    : "Bendev's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Bendevv"
+name                     : "Bendev"
 description              : "."
 url                      : "https://bendevv.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,15 +104,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bendevv"
+  name             : "Bendev"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Seoul"
-  email            :
+  email            : ${{ vars.EMAIL }}
   links:
-    - label: "bendev@dlehdgh.com"
+    - label: "${{ vars.EMAIL }}"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:bendev@dlehdgh.com"
+      url: "mailto:${{ vars.EMAIL }}"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
