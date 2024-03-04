@@ -107,12 +107,12 @@ author:
   name             : "Bendevv"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Seoul, ROK"
+  location         : "Seoul"
   email            :
   links:
     - label: "bendev@dlehdgh.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:bendev@dlehdgh.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
