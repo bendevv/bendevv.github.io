@@ -101,6 +101,8 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+env:
+    EMAIL: ${{ secrets.EMAIL }}
 
 # Site Author
 author:
@@ -109,8 +111,6 @@ author:
   bio              : ""
   location         : "Seoul"
   email            : $EMAIL
-  env:
-    EMAIL: ${{ secrets.EMAIL }}
   links:
     - label: "$EMAIL"
       icon: "fas fa-fw fa-envelope-square"
