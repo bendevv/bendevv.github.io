@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Bendev blog"
+title                    : "Bendev's blog"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Bendev"
@@ -101,20 +101,17 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-env:
-  MY_EMAIL: ${{ secrets.YOUR_EMAIL }}
-
 # Site Author
 author:
   name             : "Bendev"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Seoul"
-  email            : {{ secrets.YOUR_EMAIL }}
+  email            : 
   links:
-    - label: "EMAIL"
+    - label: "bendev@dlehdgh.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:{{ MY_EMAIL }}"
+      url: "mailto:bendev@dlehdgh.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
