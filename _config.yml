@@ -23,7 +23,7 @@ name                     : "Bendev"
 description              : "."
 url                      : "https://bendevv.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "bendevv/bendevv.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,11 +108,13 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Seoul"
-  email            : $secrets.EMAIL
+  email            : $EMAIL
+  env:
+    EMAIL: ${{ secrets.EMAIL }}
   links:
-    - label: "${{ secrets.EMAIL }}"
+    - label: "$EMAIL"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:${{ secrets.EMAIL }}"
+      url: "mailto:$EMAIL"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
