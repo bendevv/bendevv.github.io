@@ -110,7 +110,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Seoul"
-  email            : $EMAIL
+  email            : $MY_EMAIL
   links:
     - label: "$MY_EMAIL"
       icon: "fas fa-fw fa-envelope-square"
