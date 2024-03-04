@@ -108,11 +108,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Seoul"
-  email            : ${{ vars.EMAIL }}
+  email            : ${{ secrets.EMAIL }}
   links:
-    - label: "${{ vars.EMAIL }}"
+    - label: "${{ secrets.EMAIL }}"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:${{ vars.EMAIL }}"
+      url: "mailto:${{ secrets.EMAIL }}"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
