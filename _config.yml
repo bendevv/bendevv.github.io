@@ -102,7 +102,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 env:
-    EMAIL: ${{ secrets.EMAIL }}
+  EMAIL: ${{ secrets.YOUR_EMAIL }}
 
 # Site Author
 author:
