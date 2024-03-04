@@ -102,7 +102,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 env:
-  EMAIL: ${{ secrets.YOUR_EMAIL }}
+  MY_EMAIL: ${{ secrets.YOUR_EMAIL }}
 
 # Site Author
 author:
@@ -112,9 +112,9 @@ author:
   location         : "Seoul"
   email            : $EMAIL
   links:
-    - label: "$EMAIL"
+    - label: "$MY_EMAIL"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:$EMAIL"
+      url: "mailto:$MY_EMAIL"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
